@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha256-eVNjHw5UeU0jUqPPpZHAkU1z4U+QFBBY488WvueTm88=" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Jua&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+<title>Document</title>
+</head>
+<body>
+  
+  <div class="nav-menu">
+   <h2 style = "margin: 0" class="large-logo font2">LolChess</h2>
+  </div>
+  <div class="main-background1" style="border-radius: 0px;">
+    <br><br><br><br><br>
+    <h1 class="title1 font2">TEAMFIGHT</h1>
+    <h2 class="title2 font2">TACTICS</h2>
+    
+    
+    <!-- <a id = "login" class="btn btn-primary btn-lg" role="button">Log in</a>
+    <a id = "show-menu" class="btn btn-danger btn-lg" role="button">Show Menu</a> -->
+  
+    
+  </div>
+  <div class="text font3">
+    <br><h2>Guide</h2>
+  </div>
+  <div style="overflow: hidden; position: relative;">
+     <div class="slide-container">
+       <div class="slide-box">
+         <div class="slide1">
+           <h5 class="font-weight-bold d-block mt-5 mb-3">챔피언 시너지 표</h5>
+           <div>
+               <table class="table1 center">
+                    <thead>
+                         <tr >
+                              <th></th>
+                              <th >
+                                   <span class="">강화술사</span><br>
+                                   <span class="">2/3/4/5</span>
+                              </th>
+                              <th>
+                                   <span class="">거신</span><br>
+                                   <span class="">2</span>
+                              </th>
+                              
+                              <th>
+                                   <span class="">경호대</span><br>
+                                   <span class="">2/4/6/8</span>
+                              </th>
+                              <th>
+                                   <span class="">난동꾼</span><br>
+                                   <span class="">2/4/6/8</span>
+                              </th>
+                              <th>
+                                   <span class="">도전자</span><br>
+                                   <span class="">2/4/6/8</span>
+                              </th>
+                              <th>
+                                   <span class="">변형술사</span><br>
+                                   <span class="">1</span>
+                              </th>
+                              <th>
+                                   <span class="">봉쇄자</span><br>
+                                   <span class="">2/3/4/5</span>
+                              </th>
+                              <th>
+                                   <span class="">비전 마법사</span><br>
+                                   <span class="">2/4/6/8</span>
+                              </th>
+                              <th>
+                                   <span class="">쌍발총</span><br>
+                                   <span class="">2/4/6</span>
+                              </th>
+                              <th>
+                                   <span class="">암살자</span><br>
+                                   <span class="">2/4/6</span>
+                              </th>
+                              <th>
+                                   <span class="">저격수</span><br>
+                                   <span class="">2/4/6</span>
+                              </th>
+                              <th>
+                                   <span class="">학자</span><br>
+                                   <span class="">2/4/6</span>
+                              </th>
+                              <th>
+                                   <span class="">혁신가</span><br>
+                                   <span class="">3/5/7</span>
+                              </th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="r1">
+                              <th>
+                                   <span class="">고물상</span><br>
+                                   <span class="">2/4/6</span>
+                              </th>
+                              <td >
+                                   <div class="champion" style="margin:0 auto; display: inline-block;">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Janna_1634785078.png" 
+                                         alt="잔나" class= "cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>    
+                              </td>
+                              
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Blitzcrank.png" 
+                                         alt="블리츠크랭크" class ="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Trundle_1634785652.png"
+                                         alt="트런들"class ="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img  src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Blitzcrank.png"
+                                         alt="블리츠크랭크" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>     
+                              </td>
+                              <td>
+                                   <div class="champion center">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Ziggs.png"
+                                          alt="직스" class=" cost-1" >
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Jinx_1635133900.png"
+                                         alt="징크스" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>     
+                              </td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Ekko.png"
+                                         alt="에코" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>     
+                              </td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Janna_1634785078.png"
+                                         alt="잔나" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>     
+                              </td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Ezreal.png"
+                                         alt="이즈리얼" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>     
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="">대식가</span><br>
+                                   <span class="">1</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/TahmKench.png"
+                                         alt="탐 켄치" class="cost-5" >
+                                        <span class="cost">$5</span>
+                                   </div>                                        
+                              </td>     
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="">돌연변이</span><br>
+                                   <span class="">3/5</span>
+                              </th>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Chogath.png"
+                                         alt="초가스" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div> 
+                              </td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Chogath.png"
+                                         alt="초가스" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/DrMundo.png"
+                                         alt="문도 박사" class="cost-4">
+                                    <span class="cost">$4</span>
+                                   </div>
+                              </td>          
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Kaisa.png"
+                                         alt="카이사" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Kassadin.png"
+                                         alt="카사딘" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Malzahar.png"
+                                         alt="말자하" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/KogMaw_1634785516.png"
+                                         alt="코그모" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/KogMaw_1634785516.png"
+                                         alt="코그모" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">범죄 조직</span><br>
+                                   <span class="text-gray">3/5/7</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Darius_1634784329.png"
+                                         alt="다리우스" class="cost-1">
+                                    <span class="cost">$1</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Braum_1634784638.png"
+                                         alt="브라움" class="cost-4">
+                                    <span class="cost">$4</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/TwistedFate_1634785678.png"
+                                         alt="트위스티드 페이트" class="cost-1">
+                                         <span class="cost">$1</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Shaco_1634784787.png"
+                                        alt="샤코" class="cost-3">
+                                   <span class="cost">$3</span>
+                                   </div>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Akali_1634784820.png"
+                                         alt="아칼리" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>      
+                                   <td>
+                                   </td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Zyra_1634785008.png"
+                                         alt="자이라" class="cost-2">
+                                         <span class="cost">$2</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">사교계</span><br>
+                                   <span class="text-gray">1/2/3</span>
+                              </th>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Taric_1634785627.png"
+                                         alt="타릭" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Galio_1634784242.png"
+                                         alt="갈리오" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Galio_1634784242.png"
+                                         alt="갈리오" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Seraphine.png"
+                                         alt="세라핀" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>     
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">시계태엽</span><br>
+                                   <span class="text-gray">2/4/6</span>
+                              </th>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Orianna.png"
+                                         alt="오리아나" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>   
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Camille.png"
+                                         alt="카밀" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Jhin.png"
+                                         alt="진" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Zilean.png"
+                                         alt="질리언" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>          
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">아카데미</span><br>
+                                   <span class="text-gray">2/4/6/8</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Leona_1634784390.png"
+                                         alt="레오나" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Yone_1634784950.png"
+                                         alt="요네" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>
+                                   <td></td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Garen_1634784140.png"
+                                         alt="가렌" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Lux_1634784357.png"
+                                         alt="럭스" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Graves_1634784295.png"
+                                         alt="그레이브즈" class="cost-1">
+                                    <span class="cost">$1</span>
+                                   </div>
+                              </td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Katarina_1634785266.png"
+                                         alt="카타리나" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>     
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Yuumi_1634784979.png"
+                                         alt="유미" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>    
+                                   <td></td> 
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">요들</span><br>
+                                   <span class="text-gray">3/6</span>
+                              </th>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Lulu.png"
+                                         alt="룰루" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Poppy.png"
+                                         alt="뽀삐" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Ziggs.png"
+                                         alt="직스" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Vex.png"
+                                         alt="벡스" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Tristana.png"
+                                        alt="트리스타나" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Heimerdinger.png"
+                                         alt="하이머딩거" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>  
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Heimerdinger.png"
+                                         alt="하이머딩거" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>  
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">요들 군주</span><br>
+                                   <span class="text-gray">1</span>
+                              </th>
+                         
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">용병</span><br>
+                                   <span class="text-gray">3/5/7</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Illaoi.png"
+                                         alt="일라오이" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/TahmKench.png"
+                                         alt="탐 켄치" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>  
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Quinn_1634785593.png"
+                                         alt="퀸" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Gangplank.png"
+                                         alt="갱플랭크" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/MissFortune_1634784448.png"
+                                         alt="미스 포츈" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">자매</span><br>
+                                   <span class="text-gray">2</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Vi_1635133890.png"
+                                         alt="바이" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Jinx_1635133900.png"
+                                         alt="징크스" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">제국</span><br>
+                                   <span class="text-gray">3/5</span>
+                              </th>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Sion.png"
+                                         alt="사이온" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Samira.png"
+                                         alt="사미라" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Sion.png"
+                                         alt="사이온" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>  
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Swain.png"
+                                         alt="스웨인" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Talon.png"
+                                         alt="탈론" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">집행자</span><br>
+                                   <span class="text-gray">2/4</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Vi_1635133890.png"
+                                         alt="바이" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>  
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Fiora_1634785720.png"
+                                         alt="피오라" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>  
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Jayce_1635133912.png"
+                                         alt="제이스" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Caitlyn_1635139772.png"
+                                         alt="케이틀린" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>  
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Jayce_1635133912.png"
+                                         alt="제이스" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>  
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">포근</span><br>
+                                   <span class="text-gray">1</span>
+                              </th>
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                                   <td></td>     
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Yuumi_1634784979.png"
+                                        alt="유미" class="cost-5">
+                                   <span class="cost">$5</span>
+                                   </div>
+                              </td>     
+                                   <td></td>     
+                         </tr>
+                         <tr>
+                              <th>
+                                   <span class="align-middle">화학공학</span><br>
+                                   <span class="text-gray">3/5/7/9</span>
+                              </th>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Zac.png"
+                                        alt="자크" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/DrMundo.png"
+                                        alt="문도 박사" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>         
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Warwick.png"
+                                        alt="워윅" class="cost-2">
+                                        <span class="cost">$2</span>
+                                   </div>
+                              </td>
+                                   <td></td>    
+                                   <td></td>    
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Viktor.png"
+                                        alt="빅토르" class="cost-5">
+                                        <span class="cost">$5</span>
+                                   </div>
+                              </td>    
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Urgot.png"
+                                        alt="우르곳" class="cost-4">
+                                        <span class="cost">$4</span>
+                                   </div>
+                              </td>    
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Twitch.png"
+                                         alt="트위치" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>
+                                   <td></td>    
+                              <td>
+                                   <div class="champion">
+                                        <img src="//cdn.lolchess.gg/upload/images/champions/Lissandra_1634784417.png"
+                                         alt="리산드라" class="cost-3">
+                                        <span class="cost">$3</span>
+                                   </div>
+                              </td>    
+                              <td>
+                                   <div class="champion">
+                                        <img src="//ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/Singed.png"
+                                         alt="신지드" class="cost-1">
+                                        <span class="cost">$1</span>
+                                   </div>
+                              </td>    
+                         </tr>                           
+                    </tbody>
+               </table>
+          </div>
+      </div>
+         
+       </div>
+       <div class="slide-box">
+         asd
+       </div>
+       <div class="slide-box">
+         ddd
+       </div>
+       
+     </div>
+     <button class="next">&rang;</button>
+     <button class="prev">&lang;</button>
+   </div>
+ 
+  
+
+  <script>
+     $("tr").mouseover(function(){
+          $(this).addClass("hover");
+          
+     }).mouseout(function(){
+          $(this).removeClass("hover");
+     });
+
+     $("td").mouseover(function(){
+          $("table").find('td:nth-child('+($(this).index()+1)+')').addClass('hover')
+     }).mouseout(function(){
+          $("table").find('td:nth-child('+($(this).index()+1)+')').removeClass("hover");
+     });
+
+       
+    $(window).on('scroll',function(){
+      if($(window).scrollTop() > 90){
+        $('.nav-menu').addClass('nav-black');
+        $('.nav-menu h2').addClass('small-logo');
+      }
+      else{
+        $('.nav-menu').removeClass('nav-black');
+        $('.nav-menu h2').removeClass('small-logo');
+      
+      }
+    });
+
+
+
+    var current = 1;
+      $('.next').click(function(){
+          if(current<3){
+        $('.slide-container').css('transform' , 'translateX(-'+current+'00vw)');
+          }
+        if(current<3){
+          current = current +1;
+        }
+      });
+
+
+      $('.prev').click(function(){
+        
+        $('.slide-container').css('transform', 'translateX(-' + (current - 2) + '00vw)');
+          if ( current > 1 ) { 
+          current = current - 1;
+          }
+      });
+        
+
+     
+  </script>
+</body>
+</html>
